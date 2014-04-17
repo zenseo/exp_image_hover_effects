@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+#mode_acht .wrapper {
+	width: 250px;
+	height: 188px;
+	overflow: hidden;
+	position: relative;
+	display: inline-block;
+}
+#mode_acht .title {
+	position: absolute;
+	top: 188px;
+	display: block;
+	padding: 10px;
+	background: #000;
+	color: #FFF;
+	width: 230px;
+	height:80px;
+	transition: all 1s ease;
+}
+#mode_acht .wrapper:hover .title {
+	top: 88px;
+}
+#mode_acht img {
+	transition: all 1s ease;
+	position: relative;
+}
+#mode_acht .wrapper:hover img {
+	top:-100px;
+}

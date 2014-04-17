@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+#mode_sechs img{
+	transition: all .3s ease;
+	position: relative;
+}
+
+#mode_sechs img:hover{
+	box-shadow: 0 6px 5px #808080;
+bottom: 5px;
+}

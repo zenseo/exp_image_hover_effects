@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+#mode_drei .wrapper{
+	width: 250px;
+	height: 188px;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+}
+
+#mode_drei .sw{
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all .6s ease;
+}
+
+#mode_drei .wrapper:hover .sw{
+	opacity: 0;
+}

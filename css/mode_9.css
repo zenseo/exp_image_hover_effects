@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+#mode_neun img{
+	border-radius: 100%;
+	transition: all .6s ease;
+	/*border: solid 1px gray;*/
+	box-shadow: 5px 5px 5px gray;
+}
+
+#mode_neun img:hover{
+	border-radius: 10px;
+}

@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+#mode_vier .wrapper{
+	width: 250px;
+	height: 188px;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+}
+
+#mode_vier .lupe{
+	width: 250px;
+	height: 188px;
+	background:url(../img/lupe.png) center center no-repeat #000;
+	position:absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	cursor: pointer;
+	-webkit-transform:scale(1.2);
+}
+
+#mode_vier .lupe,
+#mode_vier img{
+	transition: all .6s ease;
+}
+#mode_vier .wrapper:hover img{
+	-webkit-transform:scale(1.2);
+}
+
+#mode_vier .wrapper:hover .lupe{
+	opacity: .7;
+	-webkit-transform: scale(1);
+}
