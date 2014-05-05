@@ -21,10 +21,12 @@
 #mode_acht .wrapper:hover .title {
 	top: 88px;
 }
-#mode_acht img {
+#mode_acht .image {
 	transition: all 1s ease;
 	position: relative;
+	top: 0;
+	left: 0;
 }
-#mode_acht .wrapper:hover img {
+#mode_acht .wrapper:hover .image {
 	top:-100px;
 }
